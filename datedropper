@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Datedropper Demo</title>
+    <link href="datedropper/datedropper/datedropper.min.css" rel="stylesheet" type="text/css">
+     <script src="http://code.jquery.com/jquery-1.12.2.min.js"></script>
+    <script src="datedropper/datedropper/datedropper.min.js"></script>
+   
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="ddinput" name="date">
+    </div>
+    
+    <style>
+    
+        body{
+            background-color: blueviolet;
+        }
+        .container{
+            position: absolute;
+            top: 50%;
+            left: 40%;
+        }
+        input{
+            border-radius: 50px;
+            height: 35px;
+            width: 300px;
+            text-decoration: none;
+            padding-left: 20px;
+            color: #686868;
+        }
+        
+    </style>
+    <script>$('#ddinput').dateDropper();</script>
+    
+</body>
 
+</html>
